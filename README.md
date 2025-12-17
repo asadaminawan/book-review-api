@@ -23,11 +23,19 @@ A Node.js & Express.js server-side application for managing book reviews. Users 
     node index.js
 The server will run at http://localhost:3000
 
+API Endpoints
 🔹GET /books – Get all books
+
 🔹GET /books/:isbn – Get book by ISBN
+
 🔹GET /author/:authorName – Get books by author
+
 🔹GET /title/:bookTitle – Get books by title
+
 🔹POST /register – Register new user
+
 🔹POST /login – Login user
+
 🔹PUT /review/:isbn – Add/modify book review
+
 🔹DELETE /review/:isbn – Delete book review
